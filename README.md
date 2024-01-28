@@ -7,6 +7,8 @@ Here is the format of the directory
 <img width="204" alt="image" src="https://github.com/bmatichuk/LLM_Workshop/assets/10739318/a2377c82-7b68-4bf1-981c-9f7e4acf81e1">
 
 The important bit is the secrets file
+Note I am not giving you my keys - you have to go get those yourself.
+
 It should look something like
 
 OPENAI_API_KEY = 'the openai key' <p>
