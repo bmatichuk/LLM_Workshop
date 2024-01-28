@@ -18,6 +18,10 @@ isaic_key = "the isaic key"
 
 You need to make sure you have those keys. For ISAIC you will need to email them directly to get a key
 
+use openai.com to get an api key for openai
+use pinecone.io to get an api key for pinecone
+use isaic.ca to get the api for isaic
+
 If you have any questions you can email me at bmatichuk@gmail.com
 
 The Embeddings page purpose is just to show how you can get embeddings from any query to chatgpt and save them in pinecone
