@@ -26,5 +26,17 @@ If you have any questions you can email me at bmatichuk@gmail.com
 
 The Embeddings page purpose is just to show how you can get embeddings from any query to chatgpt and save them in pinecone
 Whatever you type in the topic field will be associated with the topic key word meta information associated with that vector in pinecone.
+
 The Topics page just shows you how to get those topic vectors either with or without the topic meta data filter.
+
+The ISAIC page shows you how to use ISAIC to get completions for a Llama2 server. (note embeddings demo will be added soon)
+
+The Database page is just code copied from the Streamlit site showing how to process data in streamlit
+The Dataset page is just code copied from https://levelup.gitconnected.com/building-a-pdf-chat-app-using-langchain-openai-api-streamlit-3d95c27bda0
+Right now it doesn't fully work - I will fix it later.
+
+Enjoy!
+Please send me your questions or comments.
+I will be updating this repository with other cool LLM examples as I build them or find them.
+
 
