@@ -40,7 +40,7 @@ for message in st.session_state.messages:
         st.markdown(message["embedding"][:10])
 
 with st.container():
-    second_input = st.text_input("Enter additional information here:")
+    second_input = st.text_input("Enter topic information here:")
 
 if prompt := st.chat_input("What is up?"):
     embedding = ""

@@ -29,7 +29,8 @@ def get_text_chunks(text):
     return chunks
 # Generates embeddings for given text chunks and creates a vector store using FAISS
 def get_vectorstore(text_chunks):
-    embeddings = SentenceTransformerEmbeddings(model_name='all-MiniLM-L6-v2')
+    # paraphrase-MiniLM-L6-v2
+    embeddings = SentenceTransformerEmbeddings(model_name='paraphrase-MiniLM-L6-v2')
     vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)
     return vectorstore
 

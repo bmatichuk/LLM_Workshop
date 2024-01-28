@@ -67,15 +67,11 @@ if prompt := st.chat_input("What is up?"):
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
             response = generate_llama2_response(prompt)
-            # response=json.dumps(response)
             placeholder = st.empty()
             item_response = ""
-            #for item in response:
-            #    item_response += item
-            # for item in item_response:
             item_response += response.get("response", "")
     full_response = {"role": "assistant", "content": item_response}
-    message_placeholder.markdown(item_response)
+    # message_placeholder.markdown(item_response)
 
     st.session_state.messages.append({"role": "assistant", "content": item_response})
 
