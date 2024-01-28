@@ -18,8 +18,8 @@ isaic_key = "the isaic key"
 
 You need to make sure you have those keys. For ISAIC you will need to email them directly to get a key
 
-use openai.com to get an api key for openai
-use pinecone.io to get an api key for pinecone
+use openai.com to get an api key for openai <p>
+use pinecone.io to get an api key for pinecone <p>
 use isaic.ca to get the api for isaic
 
 If you have any questions you can email me at bmatichuk@gmail.com
