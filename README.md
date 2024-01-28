@@ -9,8 +9,8 @@ Here is the format of the directory
 The important bit is the secrets file
 It should look something like
 
-OPENAI_API_KEY = 'the openai key'
-pinecone_api_key = 'the pinecone key'
+OPENAI_API_KEY = 'the openai key' <p>
+pinecone_api_key = 'the pinecone key' <p>
 isaic_key = "the isaic key"
 
 You need to make sure you have those keys. For ISAIC you will need to email them directly to get a key
